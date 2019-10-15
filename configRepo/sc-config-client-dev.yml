@@ -1,1 +1,12 @@
 testConfig: hello cloud config
+server:
+  port: 8208
+spring:
+  application:
+    name: sc-eureka-client
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8201/eureka/
