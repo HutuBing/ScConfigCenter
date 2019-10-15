@@ -3,7 +3,7 @@ server:
   port: 8208
 spring:
   application:
-    name: sc-eureka-client
+    name: sc-config-client
 eureka:
   instance:
     hostname: localhost
